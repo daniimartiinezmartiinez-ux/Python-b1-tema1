@@ -38,7 +38,6 @@ Exemple:
      55
 
 '''
-
 def fibonacci(fibonacci_number: int): #Definimos la función fibonacci y convertimos a valor int
 
     if not isinstance(fibonacci_number, int): #Comprobamos que el valor sea un entero, sino enviara ValueError
