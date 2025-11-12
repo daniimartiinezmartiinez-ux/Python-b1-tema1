@@ -41,9 +41,9 @@ Exemple:
 def fibonacci(fibonacci_number: int): #Definimos la función fibonacci y convertimos a valor int
 
     if not isinstance(fibonacci_number, int): #Comprobamos que el valor sea un entero, sino enviara ValueError
-        return ValueError("El valor debe ser un número entero.")
+        raise ValueError("El valor debe ser un número entero.")
     if fibonacci_number < 0: #Comprobamos que el valor sea mayro que 0, sino enviara ValueError
-        return ValueError("El valor debe ser mayor o igual a 0.")
+        raise ValueError("El valor debe ser mayor o igual a 0.")
     
     #Caso Base
     if fibonacci_number == 0: 
