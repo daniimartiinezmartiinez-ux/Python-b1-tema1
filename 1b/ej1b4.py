@@ -66,11 +66,11 @@ import numpy as np
 
 def results(list_numbers):
     
-    arr= np.array(list_numbers)
+    arr= np.array(list_numbers) # Convertimos lista en un array de NumPy
 
-    promedio = np.mean(arr)
+    promedio = np.mean(arr) # Calculamos el promedio
 
-    desviacion = np.std(arr)
+    desviacion = np.std(arr) # Calculamos la desviación
 
     print(f"Promedio: {promedio:.2f}")
     print(f"desviacion: {desviacion:.2f}")
